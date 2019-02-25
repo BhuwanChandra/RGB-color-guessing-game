@@ -1,0 +1,68 @@
+body{
+    background:grey;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+#head{
+    margin: 0;
+    padding:5px;
+    background-color: steelblue;
+    font-weight: 100;
+    line-height: 1.1;
+}
+.select{
+    background: steelblue;
+    color: white;
+}
+#message{
+    display: inline-block;
+    width:25%;
+}
+#color{
+    font-size: normal;
+    text-shadow: #272323 1px 1px 1px;
+}
+h1{
+    text-align: center;
+    color:white;
+}
+nav{
+    margin:0; 
+    background: #dddddd;
+    height:30px;
+    text-align: center;
+}
+button{
+    border: none;
+    height: 100%;
+    padding: 7px;
+    font-family: monospace;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: steelblue;
+    outline: none;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
+.button:hover{
+    background:steelblue;
+    color: white;
+}
+.square{
+    width: 30%;
+    padding-bottom:30%;
+    margin: 1.66%;
+    float: left;
+    background:inherit;
+    border-radius: 15%;
+    transition: background 0.6s;
+    -webkit-transition: background 0.6s;
+    -moz-transition: background 0.6s;
+}
+.container{
+    margin:20px auto;
+    max-width: 600px;
+}

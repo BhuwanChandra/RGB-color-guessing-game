@@ -18,7 +18,7 @@ body{
 }
 #message{
     display: inline-block;
-    width:25%;
+    width:15%;
 }
 #color{
     font-size: normal;
@@ -52,8 +52,8 @@ button{
     color: white;
 }
 .square{
-    width: 30%;
-    padding-bottom:30%;
+    width: 28%;
+    padding-bottom:28%;
     margin: 1.66%;
     float: left;
     background:inherit;
@@ -63,6 +63,6 @@ button{
     -moz-transition: background 0.6s;
 }
 .container{
-    margin:20px auto;
-    max-width: 600px;
+    margin:18px auto;
+    max-width: 550px;
 }

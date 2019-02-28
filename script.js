@@ -1,7 +1,7 @@
 var color=document.querySelector("#color");
 var square = document.querySelectorAll(".square");
 var colors=[];
-var blocks=6;
+var blocks=9;
 var message=document.querySelector("#message");
 var resetbtn=document.querySelector("#reset");
 var mode=document.querySelectorAll(".modes");
@@ -63,11 +63,12 @@ function setModes(){
     //removing select class from all modes 
             mode[0].classList.remove("select");
             mode[1].classList.remove("select");
+            mode[2].classList.remove("select");
     //adding select class to current mode
             this.classList.add("select");
-            this.textContent === "EASY" ? blocks = 3 : blocks = 6;
+            this.textContent === "EASY" ? blocks = 3 : (this.textContent === "HARD" ? blocks = 6 : blocks = 9);
     //hiding all squares above easy level
-            for (let s = 3; s < 6; s++) {
+            for (let s = 3; s < 9; s++) {
                 square[s].style.background = "none";
             }
     //reset the entire things

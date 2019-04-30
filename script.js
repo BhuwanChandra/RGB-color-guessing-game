@@ -1,7 +1,7 @@
 var color=document.querySelector("#color");
 var square = document.querySelectorAll(".square");
 var colors=[];
-var blocks=9;
+var blocks=3;
 var message=document.querySelector("#message");
 var resetbtn=document.querySelector("#reset");
 var mode=document.querySelectorAll(".modes");
@@ -73,6 +73,7 @@ function setModes(){
             }
     //reset the entire things
             reset();
+            setSquares();
         });
     }
 }
